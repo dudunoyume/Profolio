@@ -1,0 +1,11 @@
+main {
+  /* 具距離上部navbar的位置，避免重疊 */
+  padding: 16px;
+  margin-top: 100px;
+
+  width: 100%;
+  /* 使下面的方格 section橫向堆疊 */
+  display: flex;
+  /* 螢幕寬度過小的時候 自動排版 RWD------------------------------------------*/
+  flex-wrap: wrap;
+}
